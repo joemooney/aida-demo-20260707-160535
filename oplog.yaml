@@ -1,0 +1,15 @@
+operations:
+- id: 019f3ed7-249d-7082-88a8-2253dc4061c5
+  target_id: 019f3ed7-1b90-7e02-944d-6a24115637d4
+  author: aida
+  node_id: ''
+  lamport: 1
+  timestamp: 2026-07-07T23:08:34.845790247Z
+  kind: !Create
+    title: Print 'Hello, World!' from hello.sh
+    description: 'Add hello.sh that prints ''Hello, World!'' to stdout. Acceptance: ./hello.sh prints the literal string and exits 0.'
+    req_type: Story
+    status: Approved
+    priority: Medium
+clock: 1
+node_id: ''
