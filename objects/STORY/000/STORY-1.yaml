@@ -3,10 +3,28 @@ spec_id: STORY-1
 agreed_id: STORY-1
 title: Print 'Hello, World!' from hello.sh
 description: 'Add hello.sh that prints ''Hello, World!'' to stdout. Acceptance: ./hello.sh prints the literal string and exits 0.'
-status: Approved
+status: Completed
 priority: Medium
 owner: ''
 feature: Uncategorized
 created_at: 2026-07-07T23:08:32.528165906Z
-modified_at: 2026-07-07T23:08:32.528165906Z
+modified_at: 2026-07-07T23:09:30.079166924Z
 req_type: Story
+history:
+- id: 019f3ed7-fc5e-7f70-ae0d-683c5a08da26
+  author: aida-auto-bump
+  timestamp: 2026-07-07T23:09:30.079042429Z
+  changes:
+  - field_name: status
+    old_value: Approved
+    new_value: Completed
+processing_record:
+- id: 019f3ed7-fc5f-7c50-8573-131c8d145820
+  timestamp: 2026-07-07T23:09:30.079159668Z
+  agent: aida
+  commit_sha: 9b7817b16f13328a302a606baa15c32ee10106c8
+  summary: Completed via merge 9b7817b1
+implementation_info:
+  implemented: false
+  completed_at: 2026-07-07T23:09:30.065683779Z
+  completion_sha: 9b7817b16f13328a302a606baa15c32ee10106c8
