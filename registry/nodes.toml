@@ -1,0 +1,9 @@
+[[nodes]]
+id = "JM"
+user_id = 1
+hostname = "imac"
+email = "joe.mooney@gmail.com"
+clone_path = "/home/joe/ai/aida-demo-20260707-160535"
+name = "imac-joe-jm"
+user = "joe"
+registered = "2026-07-07T23:06:46.905933673Z"
