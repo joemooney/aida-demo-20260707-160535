@@ -1,0 +1,23 @@
+# AIDA Generated: v2.0.0 | checksum:28191e10
+# To customize: copy this file and modify the copy
+# AIDA Codex CLI configuration.
+#
+# This file registers AIDA's MCP server with Codex CLI so a Codex session
+# started from this project root discovers AIDA's spec graph + coordination
+# tools out of the box — the Codex-side parallel to the project's `.mcp.json`
+# (which makes the same project MCP-ready for Claude Code).
+#
+# Codex merges this project-local config over your `~/.codex/config.toml`.
+# Personal preferences (model, footer, etc.) belong in the user-level file;
+# keep this one limited to the project's AIDA integration.
+
+# Trust this project's local MCP server without a per-session prompt. This is
+# the Codex analog of the `enabledMcpjsonServers: ["aida"]` pre-approval AIDA
+# writes for Claude Code. Remove it if your team prefers an explicit prompt.
+project_trust_level = "trusted"
+
+# AIDA MCP server: spec graph + cross-agent coordination surface.
+# If `aida` is not on PATH, replace `command` with the absolute binary path.
+[mcp_servers.aida]
+command = "aida"
+args = ["mcp-serve"]
